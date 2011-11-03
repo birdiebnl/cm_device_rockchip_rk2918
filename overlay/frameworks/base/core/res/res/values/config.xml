@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright 2009, The Android Open Source Project
+** Patched by Sven Dawitz; Copyright (C) 2011 CyanogenMod Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License"); 
+** you may not use this file except in compliance with the License. 
+** You may obtain a copy of the License at 
+**
+**     http://www.apache.org/licenses/LICENSE-2.0 
+**
+** Unless required by applicable law or agreed to in writing, software 
+** distributed under the License is distributed on an "AS IS" BASIS, 
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+** See the License for the specific language governing permissions and 
+** limitations under the License.
+*/
+-->
+
+<!-- These resources are around just to allow their values to be customized
+     for different hardware and product builds. -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Indicate whether the SD card is accessible without removing the battery. -->
+    <bool name="config_batterySdCardAccessibility">true</bool>
+
+    <!-- Configure rotary bottom margin -->
+    <integer name="config_rotaryMarginBottomDIP">60</integer>
+
+    <!-- Configure rotary outer radius -->
+    <integer name="config_rotaryOuterRadiusDIP">600</integer>
+
+    <!-- Configure rotary stroke width -->
+    <integer name="config_rotaryStrokeWidthDIP">124</integer>
+
+    <!-- toggles weather device is tablet or phone. right now,
+    tablets are know to have soft buttons, but phones have harware
+    buttons. this might change in the future - especially when the
+    honeycomb modifications become available for phones -->
+    <bool name="cm_default_is_tablet">true</bool>
+
+    <!-- toggles weather device uses soft buttons or got hardware
+    buttons. as the time of writing for android 2.3.3. all soft button
+    enabled devices are tablets, all disabled are phones. -->
+    <bool name="cm_default_has_soft_buttons">true</bool>
+
+    <!-- if true, status bar is shown on bottom by default -->
+    <bool name="cm_default_bottom_status_bar">true</bool>
+
+    <!-- if true, dead zone is activated, which disables pull
+    out of the status bar on the middle area - i.e. for people
+    who start drag-out events accidently while trying to hit
+    the space key -->
+    <bool name="cm_default_use_dead_zone">false</bool>
+
+    <!-- if true, soft buttons shown on left, false show them on
+    right side of status bar -->
+    <bool name="cm_default_soft_buttons_left">true</bool>
+
+    <!-- toggle which buttons to show if soft buttons enabled
+    quickna: opens notification area with the press of one button
+    instead of swiping the long way up/down on big tablets -->
+    <bool name="cm_default_show_soft_home">true</bool>
+    <bool name="cm_default_show_soft_menu">true</bool>
+    <bool name="cm_default_show_soft_back">true</bool>
+    <bool name="cm_default_show_soft_search">true</bool>
+    <bool name="cm_default_show_soft_quick_na">true</bool>
+
+    <!-- toggles which button to use to unhide the status bar
+    to show soft buttons again (see last comment). this is an
+    index. to know, which index matches which button, see
+    arrays.xml of CMParts. at the bottom of this file, menu
+    entries like "menu, back, home" are mapped to indexes -->
+    <integer name="cm_default_unhide_button_index">0</integer>
+</resources>

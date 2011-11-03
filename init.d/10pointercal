@@ -1,0 +1,4 @@
+!/system/bin/sh
+
+echo tp_irq > /sys/class/touchpanel/touchcalibration
+echo tp_cal > /sys/class/touchpanel/touchcalibration

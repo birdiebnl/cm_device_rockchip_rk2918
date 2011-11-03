@@ -1,0 +1,2 @@
+add_lunch_combo full_rk2918-eng
+add_lunch_combo cyanogen_rk2918-eng

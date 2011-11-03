@@ -1,0 +1,12 @@
+#
+# system.prop for rk2918
+#
+dalvik.vm.dexopt-flags=m=y
+dalvik.vm.heapsize=32m
+persist.sys.use_dithering=0
+persist.sys.use_16bpp_alpha=1
+qemu.sf.lcd_density=160
+ro.additionalmounts=/mnt/nand;/mnt/usb
+ro.vold.switchablepair=/mnt/sdcard,/mnt/nand
+wifi.interface=wlan0
+wifi.supplicant_scan_interval=45
