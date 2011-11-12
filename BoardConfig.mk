@@ -6,7 +6,6 @@ endif
 
 #audio
 BOARD_USES_GENERIC_AUDIO := true
-
 BOARD_USES_LIBSECRIL_STUB := true
 
 # inherit from the proprietary version
@@ -15,9 +14,6 @@ BOARD_USES_LIBSECRIL_STUB := true
 TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
 TARGET_ARCH_VARIANT := armv7-a-neon
-TARGET_GLOBAL_CFLAGS += -mtune=cortex-a8 -mfpu=neon -mfloat-abi=softfp
-TARGET_GLOBAL_CPPFLAGS += -mtune=cortex-a8 -mfpu=neon -mfloat-abi=softfp
-
 TARGET_NO_BOOTLOADER := true
 TARGET_BOOTLOADER_BOARD_NAME := rk29board
 TARGET_BOARD_PLATFORM := rk2918
