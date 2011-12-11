@@ -21,36 +21,38 @@ MANUFACTURER=rockchip
 
 mkdir -p ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 
-cp /media/data/Archos/E8_23.01/proprietary/system/etc/rockchip_bq27510.bqfs ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/rockchip_bq27510.bqfs
-cp /media/data/Archos/E8_23.01/proprietary/system/etc/rockchip_bq27510.dffs ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/rockchip_bq27510.dffs
-cp /media/data/Archos/E8_23.01/proprietary/system/etc/firmware/athtcmd_ram.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/athtcmd_ram.bin
-cp /media/data/Archos/E8_23.01/proprietary/system/etc/firmware/athwlan.bin.z77 ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/athwlan.bin.z77
-cp /media/data/Archos/E8_23.01/proprietary/system/etc/firmware/calData_ar6102_15dBm.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/calData_ar6102_15dBm.bin
-cp /media/data/Archos/E8_23.01/proprietary/system/etc/firmware/data.patch.hw2_0.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/data.patch.hw2_0.bin
-cp /media/data/Archos/E8_23.01/proprietary/system/etc/firmware/device.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/device.bin
-cp /media/data/Archos/E8_23.01/proprietary/system/etc/firmware/fw_bcm4329.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/fw_bcm4329.bin
-cp /media/data/Archos/E8_23.01/proprietary/system/etc/firmware/fw_bcm4329_apsta.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/fw_bcm4329_apsta.bin
-cp /media/data/Archos/E8_23.01/proprietary/system/etc/firmware/nvram_B23.txt ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/nvram_B23.txt
-cp /media/data/Archos/E8_23.01/proprietary/system/etc/firmware/sd8686.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/sd8686.bin
-cp /media/data/Archos/E8_23.01/proprietary/system/etc/firmware/sd8686_helper.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/sd8686_helper.bin
-cp /media/data/Archos/E8_23.01/proprietary/system/etc/firmware/softmac ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/softmac
-cp /media/data/Archos/E8_23.01/proprietary/system/lib/libaudio.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libaudio.so
-cp /media/data/Archos/E8_23.01/proprietary/system/lib/libaudiopolicy.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libaudiopolicy.so
-cp /media/data/Archos/E8_23.01/proprietary/system/lib/libcamera.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libcamera.so
-cp /media/data/Archos/E8_23.01/proprietary/system/lib/liba2dp.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/liba2dp.so
-cp /media/data/Archos/E8_23.01/proprietary/system/lib/libjpeghwdec.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libjpeghwdec.so
-cp /media/data/Archos/E8_23.01/proprietary/system/lib/libjpeghwenc.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libjpeghwenc.so
-cp /media/data/Archos/E8_23.01/proprietary/system/lib/libvpu.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libvpu.so
-cp /media/data/Archos/E8_23.01/proprietary/system/lib/libGAL.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libGAL.so
-cp /media/data/Archos/E8_23.01/proprietary/system/lib/egl/egl.cfg ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/egl.cfg
-cp /media/data/Archos/E8_23.01/proprietary/system/lib/hw/copybit.rk29board.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/copybit.rk29board.so
-cp /media/data/Archos/E8_23.01/proprietary/system/lib/hw/gralloc.default.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/gralloc.default.so
-cp /media/data/Archos/E8_23.01/proprietary/system/lib/hw/gralloc.rk29board.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/gralloc.rk29board.so
-cp /media/data/Archos/E8_23.01/proprietary/system/lib/hw/hdmi.rk28board.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/hdmi.rk28board.so
-cp /media/data/Archos/E8_23.01/proprietary/system/lib/hw/lights.rk29board.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/lights.rk29board.so
-cp /media/data/Archos/E8_23.01/proprietary/system/lib/hw/overlay.rk29sdk.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/overlay.rk29sdk.so
-cp /media/data/Archos/E8_23.01/proprietary/system/lib/hw/sensors.rk29board.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/sensors.rk29board.so
-cp /media/data/Archos/E8_23.01/proprietary/system/lib/modules/wlan.ko ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/wlan.ko
+cp ~/proprietary/rk2918_gb/system/etc/rockchip_bq27510.bqfs ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/rockchip_bq27510.bqfs
+cp ~/proprietary/rk2918_gb/system/etc/rockchip_bq27510.dffs ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/rockchip_bq27510.dffs
+cp ~/proprietary/rk2918_gb/system/etc/firmware/athtcmd_ram.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/athtcmd_ram.bin
+cp ~/proprietary/rk2918_gb/system/etc/firmware/athwlan.bin.z77 ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/athwlan.bin.z77
+cp ~/proprietary/rk2918_gb/system/etc/firmware/calData_ar6102_15dBm.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/calData_ar6102_15dBm.bin
+cp ~/proprietary/rk2918_gb/system/etc/firmware/data.patch.hw2_0.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/data.patch.hw2_0.bin
+cp ~/proprietary/rk2918_gb/system/etc/firmware/device.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/device.bin
+cp ~/proprietary/rk2918_gb/system/etc/firmware/fw_bcm4329.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/fw_bcm4329.bin
+cp ~/proprietary/rk2918_gb/system/etc/firmware/fw_bcm4329_apsta.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/fw_bcm4329_apsta.bin
+cp ~/proprietary/rk2918_gb/system/etc/firmware/nvram_B23.txt ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/nvram_B23.txt
+cp ~/proprietary/rk2918_gb/system/etc/firmware/sd8686.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/sd8686.bin
+cp ~/proprietary/rk2918_gb/system/etc/firmware/sd8686_helper.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/sd8686_helper.bin
+cp ~/proprietary/rk2918_gb/system/etc/firmware/softmac ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/softmac
+cp ~/proprietary/rk2918_gb/system/lib/libaudio.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libaudio.so
+cp ~/proprietary/rk2918_gb/system/lib/libaudiopolicy.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libaudiopolicy.so
+cp ~/proprietary/rk2918_gb/system/lib/libcamera.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libcamera.so
+cp ~/proprietary/rk2918_gb/system/lib/liba2dp.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/liba2dp.so
+cp ~/proprietary/rk2918_gb/system/lib/libjpeghwdec.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libjpeghwdec.so
+cp ~/proprietary/rk2918_gb/system/lib/libjpeghwenc.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libjpeghwenc.so
+cp ~/proprietary/rk2918_gb/system/lib/libvpu.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libvpu.so
+cp ~/proprietary/rk2918_gb/system/lib/libGAL.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libGAL.so
+cp ~/proprietary/rk2918_gb/system/lib/libstagefrighthw.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libstagefrighthw.so
+cp ~/proprietary/rk2918_gb/system/lib/egl/egl.cfg ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/egl.cfg
+cp ~/proprietary/rk2918_gb/system/lib/hw/copybit.rk29board.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/copybit.rk29board.so
+cp ~/proprietary/rk2918_gb/system/lib/hw/gralloc.default.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/gralloc.default.so
+cp ~/proprietary/rk2918_gb/system/lib/hw/gralloc.rk29board.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/gralloc.rk29board.so
+cp ~/proprietary/rk2918_gb/system/lib/hw/hdmi.rk28board.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/hdmi.rk28board.so
+cp ~/proprietary/rk2918_gb/system/lib/hw/lights.rk29board.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/lights.rk29board.so
+cp ~/proprietary/rk2918_gb/system/lib/hw/overlay.rk29sdk.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/overlay.rk29sdk.so
+cp ~/proprietary/rk2918_gb/system/lib/hw/sensors.rk29board.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/sensors.rk29board.so
+cp ~/proprietary/rk2918_gb/system/lib/modules/wlan.ko ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/wlan.ko
+cp ~/proprietary/rk2918_gb/rk29xxnand_ko.ko ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/rk29xxnand_ko.ko
 
 (cat << EOF) | sed s/__DEVICE__/$DEVICE/g | sed s/__MANUFACTURER__/$MANUFACTURER/g > ../../../vendor/$MANUFACTURER/$DEVICE/device-vendor-blobs.mk
 # Copyright (C) 2010 The Android Open Source Project
@@ -73,7 +75,8 @@ cp /media/data/Archos/E8_23.01/proprietary/system/lib/modules/wlan.ko ../../../v
 PRODUCT_COPY_FILES := \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libaudio.so:obj/lib/libaudio.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libaudiopolicy.so:obj/lib/libaudiopolicy.so \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libcamera.so:obj/lib/libcamera.so
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libcamera.so:obj/lib/libcamera.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libstagefrighthw.so:obj/lib/libstagefrighthw.so
 
 
 # All the blobs necessary for rk2918
@@ -99,6 +102,7 @@ PRODUCT_COPY_FILES += \\
 		vendor/__MANUFACTURER__/__DEVICE__/proprietary/libjpeghwdec.so:system/lib/libjpeghwdec.so \\
 		vendor/__MANUFACTURER__/__DEVICE__/proprietary/libvpu.so:system/lib/libvpu.so \\
 		vendor/__MANUFACTURER__/__DEVICE__/proprietary/libGAL.so:system/lib/libGAL.so \\
+		vendor/__MANUFACTURER__/__DEVICE__/proprietary/libstagefrighthw.so:system/lib/libstagefrighthw.so \\
 		vendor/__MANUFACTURER__/__DEVICE__/proprietary/egl.cfg:system/lib/egl/egl.cfg \\
 		vendor/__MANUFACTURER__/__DEVICE__/proprietary/copybit.rk29board.so:system/lib/hw/copybit.rk29board.so \\
 		vendor/__MANUFACTURER__/__DEVICE__/proprietary/gralloc.default.so:system/lib/hw/gralloc.default.so \\
@@ -107,7 +111,8 @@ PRODUCT_COPY_FILES += \\
 		vendor/__MANUFACTURER__/__DEVICE__/proprietary/lights.rk29board.so:system/lib/hw/lights.rk29board.so \\
 		vendor/__MANUFACTURER__/__DEVICE__/proprietary/overlay.rk29sdk.so:system/lib/hw/overlay.rk29sdk.so \\
 		vendor/__MANUFACTURER__/__DEVICE__/proprietary/sensors.rk29board.so:system/lib/hw/sensors.rk29board.so \\
-		vendor/__MANUFACTURER__/__DEVICE__/proprietary/wlan.ko:system/lib/modules/wlan.ko
+		vendor/__MANUFACTURER__/__DEVICE__/proprietary/wlan.ko:system/lib/modules/wlan.ko \\
+		vendor/__MANUFACTURER__/__DEVICE__/proprietary/rk29xxnand_ko.ko:root/rk29xxnand_ko.ko
 EOF
 
 ./setup-makefiles.sh
